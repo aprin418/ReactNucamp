@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { Breadcrumb, BreadcrumbItem,
-    Button, Label, Col, Row, Card, CardImg, CardBody, CardText, Modal, ModalHeader, ModalBody, Form, FormGroup, Input } from 'reactstrap';
+    Button, Label, Card, CardImg, CardBody, CardText, Modal, ModalHeader, ModalBody, } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { Control, LocalForm, Errors } from 'react-redux-form';
-import reactDom from 'react-dom';
 import { Loading } from './LoadingComponent';
 import { baseUrl } from '../shared/baseUrl';
 import { FadeTransform, Fade, Stagger } from 'react-animation-components';
